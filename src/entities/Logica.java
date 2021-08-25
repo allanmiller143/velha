@@ -6,8 +6,8 @@ public class Logica {
 
 	public Logica(String vencedor, String vencedor2) {
 		super();
-		this.Xvence = vencedor;
-		this.Ovence = vencedor2;
+		Xvence = vencedor;
+		Ovence = vencedor2;
 
 	}	
 	public String getXvence() {
@@ -22,8 +22,9 @@ public class Logica {
 	public void setOvence(String ovence) {
 		Ovence = ovence;
 	}
+	
 	public void vencedor(int[][] tab) {	
-	int x =0;	
+	int x = 0;	
 	if (tab[0][0] == tab[0][1] & tab[0][1] == tab[0][2]) {
 			x = tab[0][2];	
 		}

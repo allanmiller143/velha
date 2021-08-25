@@ -11,7 +11,7 @@ public class Program {
 			String Xvence = "jogador 1 venceu";
 			String Ovence = "jogador 2 venceu";
 			int[][] tab = new int[3][3];
-			Tabuleiro tabuleiro = new Tabuleiro();
+			Tabuleiro tabuleiro = new Tabuleiro(3,3);
 			Logica l = new Logica(Xvence, Ovence);
 			Leitor leitor = new Leitor();
 			System.out.println("---> JOGO DA VELHA  <---");

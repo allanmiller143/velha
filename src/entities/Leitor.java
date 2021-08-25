@@ -3,8 +3,10 @@ package entities;
 import java.util.Scanner;
 
 public class Leitor {
+	
+	Scanner sc = new Scanner(System.in);
 	public void leitura(int[][] tab) {
-		Scanner sc = new Scanner(System.in);
+		
 		System.out.println();
 		System.out.println("      JOGADOR 1");
 		System.out.println();
@@ -33,11 +35,11 @@ public class Leitor {
 		tab[linha][coluna] = 1;
 		System.out.println();
 
-		sc.close();
+	
 	}
 
 	public void leitura2(int[][] tab) {
-		Scanner sc = new Scanner(System.in);
+		
 		System.out.println();
 		System.out.println("      JOGADOR 2");
 		System.out.println();
@@ -64,7 +66,9 @@ public class Leitor {
 		}
 		tab[linha][coluna] = 2;
 		System.out.println();
-		sc.close();
+		
 	}
+	
+	
 
 }
